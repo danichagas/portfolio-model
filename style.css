@@ -9,6 +9,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* header */
 nav {
     background-color: #181818;
     height: 80px;
@@ -34,3 +35,46 @@ nav {
 .nav-list a:hover {
     color: #FFF;
 }
+/* header */
+
+/* main */
+main {
+    width: 100%;
+    background-color: #000;
+    height: calc(100vh - 80px);
+    background-image: url(images/programador.png);
+
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+
+main h1 {
+    color: #FFF;
+    font-size: 54px;
+}
+
+main span {
+    font-size: 24px;
+    font-style: italic;
+    color: #1E96FC;
+    margin-bottom: 35px;
+}
+
+.call-to-action {
+    cursor: pointer;
+    background-color: #FFF;
+    margin-top: 20px;
+    border: 0;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main a {
+    text-decoration: none;
+    color: #181818;
+}
+
+/* main */
